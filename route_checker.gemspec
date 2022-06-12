@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Write a short summary, because RubyGems requires one."
   spec.description   = "route checker gem helps to find unused routes and unreachable actions in rails application."
-  spec.homepage      = "http://testing.com"
+  spec.homepage      = "https://github.com/sanjay-salunkhe/route_checker"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 1.9.3")
 
