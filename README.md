@@ -48,6 +48,8 @@ Or
 RouteChecker::Result::save_to('/Users/ssalunkhe','demo.txt','a+')
 ```
 
+## Important Note
+Whenever changes are made to rails project then from rails console run `reload!` command so that changes will be pick up by route_checker gem.
 
 ## License
 
