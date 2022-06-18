@@ -25,15 +25,15 @@ rails console
 ```
 and then
 
-To find unreachable actions
+To find unreachable actions run below command. unreachable actions are those actions where actions are defined in controllers but their routes are missing in routes.rb file.
 ```ruby
 RouteChecker::Result::unreachable_actions
 ```
-To find unused routes
+To find unused routes run below command. unused route are those routes where path is defined in routes.rb file but their actions are not defined in the controllers.
 ```ruby
 RouteChecker::Result::unused_routes
 ```
-To find uninitialized controllers
+To find uninitialized controllers run below command. uninitialized controllers are those controllers where paths are defined in routes.rb file but the controllers itselfs are missing.
 ```ruby
 RouteChecker::Result::uninitialized_controllers
 ```
